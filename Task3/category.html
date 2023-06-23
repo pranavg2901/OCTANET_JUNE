@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Udemy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/style1.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/img/main_logo.svg" alt="Bootstrap" width="100" height="38" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="/category.html">Development</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Business</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Finance & Accounting</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">IT & Software</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Office Productivity</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Personal Development</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Design</a></li>
+                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                            <li><a class="dropdown-item" href="#">Lifestyle</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Photography & Video</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Health & Fitness</a></li>
+                            <li><a class="dropdown-item" href="#">Music</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Teaching & Academics</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <form class="d-flex search" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search For Anything"
+                                aria-label="Search" />
+                        </form>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item m-1">
+                        <a class="nav-link" href="#">Udemy Business</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="nav-link" href="#">Teach On Udemy</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a href="/cart.html" class="btn btn-light rounded-0"><i class="bi bi-cart3"></i></a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a href="login.html" class="btn btn-outline-dark rounded-0">Login</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a href="signup.html" class="btn btn-dark rounded-0">Sign Up</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a href="" class="btn btn-outline-dark rounded-0" type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"><i class="bi bi-globe"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Modal For Language Button -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">language</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>English</td>
+                                <td>Japnese</td>
+                                <td>Russian</td>
+                            </tr>
+                            <tr>
+                                <td>Hindi</td>
+                                <td>Urdu</td>
+                                <td>Arabic</td>
+                            </tr>
+                            <td>German</td>
+                            <td>Polki</td>
+                            <td>Deutsch</td>
+                        </tbody>
+                    </table>
+                </div>
+                <button type="button" class="btn btn-dark">Save</button>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Coures Category -->
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <h1 class="mt-2 mb-3">Expand your career opportunities with Python</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/img/Cources/6.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Python Programming for Beginners: Learn the Basics</h6>
+                            <p class="card-text">₹ 3999/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.5 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/img/Cources/1.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Python Data Analysis and Visualization: Unlocking Insights
+                            </h6>
+                            <p class="card-text">₹ 2599/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.1 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/img/Cources/5.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Python Web Scraping: Extracting Data from the Web</h6>
+                            <p class="card-text">₹ 4569/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.4 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?data+science" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Python for Data Science: Exploring the Data Universe</h6>
+                            <p class="card-text">₹ 1599/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.5 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?robotics" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Python Robotics: Programming Intelligent Robots
+                            </h6>
+                            <p class="card-text">₹ 4299/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>3.5 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/img/Cources/4.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">100 Days Of Code Complete Python Bootcamp for 2023</h6>
+                            <p class="card-text">₹ 5999/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.8 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn btn-dark rounded-0 m-4 float-end "> Explore More</a>
+        </div>
+    </div>
+    </div>
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container mt-4">
+            <h1 class="mt-5 mb-3">Expand your creative skillset with Drawing</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?drawing" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Watercolor Painting: Expressive Techniques and Effects</h6>
+                            <p class="card-text">₹ 999/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.5 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?Charcoal+Drawing" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Charcoal Drawing: Adding Depth and Texture 2023
+                            </h6>
+                            <p class="card-text">₹ 599/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.1 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?anime" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text"> How To Draw Anime And Managa, Complete Guide.</h6>
+                            <p class="card-text">₹ 199/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.4 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?nature+art" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Still Life Drawing: Exploring Composition and Lighting</h6>
+                            <p class="card-text">₹ 599/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.5 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?potrait+drawing" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Portrait Drawing: Capturing Likeness and Expression
+                            </h6>
+                            <p class="card-text">₹ 469/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>3.5 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/img/Cources/3.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Drawing Fundamentals: Mastering the Basics to advanced</h6>
+                            <p class="card-text">₹ 299/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.8 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn btn-dark rounded-0 m-4 float-end ">Explore Drawing</a>
+        </div>
+    </div>
+    </div>
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container mt-4">
+            <h1 class="mt-5 mb-3">Improve Your Skills For Your Investment</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?Digital+business" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Digital Marketing Mastery: Strategies for Success</h6>
+                            <p class="card-text">₹ 6789/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.9 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?Social+media+marketing" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Social Media Marketing: Building a Brand Online
+                            </h6>
+                            <p class="card-text">₹ 7899/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.3 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?Financial+Analysis" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Financial Analysis and Decision Making</h6>
+                            <p class="card-text">₹ 8589/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.6 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?Business" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Business Plan Development: From Idea to Exc.</h6>
+                            <p class="card-text">₹ 9499/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.1 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?stock+market" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Techincal & Fundamental Strategies
+                            </h6>
+                            <p class="card-text">₹ 5899/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.8 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://source.unsplash.com/random/600x400/?Investment" alt="">
+                        <div class="card-body">
+                            <h6 class="card-text">Investment Management: Strategies for Growth</h6>
+                            <p class="card-text">₹ 7599/-</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn text-white"
+                                        style="background-color: blueviolet;">Add To Cart</button>
+                                </div>
+                                <small class="text-body-warning text-warning"><b>4.1 &nbsp;</b><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-half"></i></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn btn-dark rounded-0 m-4 float-end ">Improve Investment</a>
+        </div>
+    </div>
+    </div>
+
+<!-- Footer -->
+  <div class="footer-element mt-5">
+    <div class="elements">
+      <ul class="firstlist_ul element_ul">
+        <li class="firstlist_li"><a href="" class="firstlist_a">Udemy Business</a></li>
+        <li class="firstlist_li"><a href="" class="firstlist_a">Teach On Udemy</a></li>
+        <li class="firstlist_li"><a href="" class="firstlist_a">Get the App</a></li>
+        <li class="firstlist_li"><a href="" class="firstlist_a">About us</a></li>
+        <li class="firstlist_li"><a href="" class="firstlist_a">Contact us</a></li>
+      </ul>
+      <ul class="seclist_ul element_ul">
+        <li class="seclist_li"><a href="" class="seclist_a">Careers</a></li>
+        <li class="seclist_li"><a href="" class="seclist_a">Blog</a></li>
+        <li class="seclist_li"><a href="" class="seclist_a">Help & Support</a></li>
+        <li class="seclist_li"><a href="" class="seclist_a">Affiliate</a></li>
+        <li class="seclist_li"><a href="" class="seclist_a">Investors</a></li>
+      </ul>
+      <ul class="thirdlist_ul element_ul">
+        <li class="thirdlist_li"><a href="" class="thirdlist_a">Terms</a></li>
+        <li class="thirdlist_li"><a href="" class="thirdlist_a">Privacy Policy</a></li>
+        <li class="thirdlist_li"><a href="" class="thirdlist_a">Cookies Setting</a></li>
+        <li class="thirdlist_li"><a href="" class="thirdlist_a">Sitemap</a></li>
+        <li class="thirdlist_li"><a href="" class="thirdlist_a">Accessibility Statement</a></li>
+      </ul>
+    </div>
+    <div class="footer_img">
+      <img src="/img/footer-logo.svg" alt="" width="100" height="50">
+    </div>
+    <p class="copy_right">&copy; 2023 Udemy,inc.</p>
+    <a href="" class="btn btn-outline-light rounded-0 icon-footer" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <i class="bi bi-globe"></i>
+    </a>
+  </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
