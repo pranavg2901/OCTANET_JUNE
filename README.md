@@ -25,3 +25,7 @@
 </p>
 
 <hr>
+
+## 🚀 Introduction
+
+Welcome to **Trjara**, a hyperlocal e-commerce platform designed to connect local businesses and customers seamlessly. This website is developed and maintained by **Beginning Solutions**, focusing on empowering communities through technology and efficient digital solutions.
