@@ -7,7 +7,6 @@
 <p align="center">
   <em>Comprehensive documentation for developers</em>
 </p>
-
 <p align="center">
   <table>
     <tr>
